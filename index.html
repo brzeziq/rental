@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=ISO-8859-2" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="js_szablon_czysty.js"></script>
+<script src="js_kalendarz.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<link rel="stylesheet" href="css_szablon_czysty.css">
+<title>Wypozyczalnia</title>
+</head>
+<body>
+<div class="container-fluid">
+	<div id="menuGorne">
+	 <a href="#box1">O nas</a>
+	 <a href="#box2">Oferta</a>
+	 <a href="#box3">Kontakt</a>
+	</div>
+	
+   <div class="row">
+	<div class="col-md-12 box" id="box1">
+     <div id="banner">
+      Zamiast kupować sprzęt - Wypożycz go!
+		Co zyskujesz:<br><br>
+		<ul>
+			<li>Płacisz za tyle, ile korzystasz</li>
+			<li>Dostajesz najlepszy sprzęt</li>
+			<li>Gwarancja sprawności lub zwrot pieniędzy</li>
+			<li>Najpierw próbujesz, a potem decydujesz czego Ci potrzeba!</li>
+		</ul>
+      </div>
+
+	</div>
+   </div>
+	
+    <div class="row">
+	 <div id="box2" class="col-md-12 box">	
+	  <div class="produktRamka">
+       <div class="ikonaProduktu"></div>
+        <div class="opisProduktu">
+         Wyrzynarka Bosch<br>
+        </div>    
+        <div class="opisProduktu">
+         Moc: 600W<br>
+         Liczba prędkości: plynna;
+        </div>    
+        <div class="opisProduktu" id="kalendarz">
+         <div class="month"></div>   	
+          <button id="BTNrezerwuj" onclick="rezerwuj()">Rezerwuj</button>
+        </div>			
+        <div class="opisProduktu" id="counter">.</div>
+       <div class="opisProduktu" id="counter2">
+
+       </div>
+	</div>
+   </div>	
+
+   <div class="row">
+	<div id="box3" class="col-md-12 box">
+	<h2>
+	Krzysztof Brzeziński<br>
+	tel.: XXX-XXX-XXX<br>
+	Marylskiego XXX<br>
+	XX-XXX Książenice
+	</h2>
+	</div>
+   </div>	
+
+    <div style="background:rgba(255,255,255,0.8);">Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a>             is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0</a></div>
+
+    
+</div>
+</body>
+</html>
+
+
